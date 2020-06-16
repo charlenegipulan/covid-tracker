@@ -51,7 +51,7 @@ const Chart = ({ data: {confirmed, deaths, recovered}, country }) => {
                     datasets: [{
                         label: 'People',
                         backgroundColor: ['#2980DD', '#06CC02', '#FD2B2B'],
-                        data: [confirmed, recovered, deaths]
+                        data: [confirmed.value, recovered.value, deaths.value]
                     }]
                 }}
                 options={{
