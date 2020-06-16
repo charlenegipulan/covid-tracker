@@ -17,3 +17,11 @@
 .deaths {
     border-bottom: 10px solid #FD2B2B;
 }
+
+@media (max-width: 770px) {
+    .card {
+        margin: 2% 0 !important;
+        width: 80%;
+    }
+
+}
